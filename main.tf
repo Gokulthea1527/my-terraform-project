@@ -1,5 +1,7 @@
 provider "aws" {
-  region = "ap-southeast-2"  # Change this to your desired AWS region
+  aws_access_key_id = AKIAVNMUTZ3MIRI5BN4P
+  aws_secret_access_key = oNuf6WnEpi8k6ofUv0vFa/wmHDCLGKCVz3P0BgMl
+  region = "ap-southeast-2" 
 }
 
 resource "aws_iam_role" "lambda_execution_role" {
