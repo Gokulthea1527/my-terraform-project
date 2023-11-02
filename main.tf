@@ -1,6 +1,6 @@
 provider "aws" {
-  aws_access_key_id = AKIAVNMUTZ3MIRI5BN4P
-  aws_secret_access_key = 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
+  aws_access_key_id = "AKIAVNMUTZ3MIRI5BN4P"
+  aws_secret_access_key = "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"
   region = "ap-southeast-2" 
 }
 
